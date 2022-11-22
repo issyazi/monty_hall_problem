@@ -1,0 +1,119 @@
+@font-face {
+	font-family: one; 
+	src: url(/monty_hall_problem/font/Partita-Deco.ttf); 
+}
+body {
+    font-family: one;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #4db29c;
+}
+img {
+    width: 250px;
+    padding: 0 30px 0 30px;
+    margin: 100px 100px 100px 100px;
+    vertical-align: middle;
+    align-items: center;
+    border-style: none;
+    
+    
+}
+.headerL {
+    height: 56px;
+    background: #b24d63;
+}
+
+.Inf {
+    margin: 20px 0 20px 0;
+    font-size: 28px;
+    background: #694db2;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px 0px 20px 0px;
+}
+.header {
+    display: block;
+    font-size: 54px;
+    padding: 20px 0px 20px 80px;
+}
+
+.doors {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+p{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#4db29c 50%, #b24d63 50%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+h6 {
+    margin: 0;
+    padding: 10px 0 0 20px;
+    font-size: 20px;
+    font-weight: 50;
+    color: #4db29c;
+  }
+  h1{
+    color:#694db2;
+  }
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container {
+    column-width: 10cm ;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    padding: 20px 500px 20px 500px;
+    height: 137px;
+    background: #212121;
+}
+.numbers {
+    width: 50%;
+}
+.statictic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.n {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlayImage {
+    position: absolute;
+  }
+#loss_stay {
+    color: #3c28b4;
+}
+#loss_change {
+    color: #3c28b4;
+    /* 3c28b4 */
+}
+#win_stay {
+    color: #b24d63;
+}
+#win_change {
+    color: #b24d63;
+}
+
+
+
+
+
+
